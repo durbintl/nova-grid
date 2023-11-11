@@ -10,7 +10,6 @@
     "php": ">=7.1.0"
   },
   "require-dev": {
-    "durbintl/nova-grid": "dev-master",
     "laravel/nova": "^4.0"
   },
   "autoload": {
