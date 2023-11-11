@@ -1,9 +1,9 @@
 <?php
 
-namespace Nibri10\NovaGrid\Http\Middleware;
+namespace durbintl\NovaGrid\Http\Middleware;
 
 use Laravel\Nova\Nova;
-use Nibri10\NovaGrid\NovaGrid;
+use durbintl\NovaGrid\NovaGrid;
 
 class Authorize
 {
