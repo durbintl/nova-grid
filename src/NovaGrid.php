@@ -1,6 +1,6 @@
 <?php
 
-namespace Nibri10\NovaGrid;
+namespace durbintl\NovaGrid;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Nova;
