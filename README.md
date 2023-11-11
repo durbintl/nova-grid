@@ -11,16 +11,12 @@ This is a tool for Laravel's Nova administrator panel that allows you to create 
 You can install the package via composer:
 
 ```
-composer require nibri10/nova-grid
+composer require durbintl/nova-grid
 ```
 
 Then, you will need to register the tool within the `NovaServiceProvider.php`:
 
 ```php
-
-use Nibri10\NovaGrid\NovaGrid;
-
-...
 
 /**
  * Get the tools that should be listed in the Nova sidebar.
@@ -31,7 +27,7 @@ public function tools()
 {
     return [
         // other tools
-        new NovaGrid,
+        new \durbintl\NovaGrid\NovaGrid,
     ];
 }
 ```

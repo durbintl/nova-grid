@@ -1,12 +1,12 @@
 <?php
 
-namespace Nibri10\NovaGrid;
+namespace durbintl\NovaGrid;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Nibri10\NovaGrid\Http\Middleware\Authorize;
+use durbintl\NovaGrid\Http\Middleware\Authorize;
 use Laravel\Nova\Fields\Field;
 
 class ToolServiceProvider extends ServiceProvider
